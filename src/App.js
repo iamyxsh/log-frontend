@@ -12,7 +12,7 @@ import { setContext } from "apollo-link-context"
 import MainRouter from "./MainRouter"
 
 const httpLink = createHttpLink({
-	uri: GRAPHQL_URI,
+	uri: "https://log-yxsh1.herokuapp.com",
 })
 
 const authLink = setContext(() => {
